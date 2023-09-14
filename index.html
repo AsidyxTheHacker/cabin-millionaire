@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/logo.png">
+    <script src="script.js" defer></script>
+    <script src="questions.js" defer></script>
+    <title>Who Want's to be a Timillionaire</title>
+</head>
+</head>
+<body>
+    <div class="set-container">
+        <div class="lifeline-container">
+            <img src="media/5050.svg" class="lifeline" id="5050-lifeline"></img>
+            <img src="media/audience.svg" class="lifeline" id="audience-lifeline"></img>
+            <img src="media/phone.svg" class="lifeline" id="phone-lifeline"></img>
+        </div>
+        <div class="logo-container">
+            <img src="media/logo.png">
+        </div>
+            <ul class="money-container">
+                <li class="amount" onclick="questionFifteen()">$ 1,000,000</li>
+                <li class="amount" onclick="questionFourteen()">$ 500,000</li>
+                <li class="amount" onclick="questionThirteen()">$ 250,000</li>
+                <li class="amount" onclick="questionTwelve()">$ 125,000</li>
+                <li class="amount" onclick="questionEleven()">$ 64,000</li>
+                <li class="amount" onclick="questionTen()">$ 32,000</li>
+                <li class="amount" onclick="questionNine()">$ 16,000</li>
+                <li class="amount" onclick="questionEight()">$ 8,000</li>
+                <li class="amount" onclick="questionSeven()">$ 4,000</li>
+                <li class="amount" onclick="questionSix()">$ 2,000</li>
+                <li class="amount" onclick="questionFive()">$ 1,000</li>
+                <li class="amount" onclick="questionFour()">$ 500</li>
+                <li class="amount" onclick="questionThree()">$ 300</li>
+                <li class="amount" onclick="questionTwo()">$ 200</li>
+                <li class="amount" onclick="questionOne()">$ 100</li>
+            </ul>
+            <div class="question-container">
+                <p class="question">What is Sergeant Dan's drink of choice?</p>
+            </div>
+            <div class="answer-container">
+                <p class="answer" id="ansA">A. <span id="answer-a">Soda</span></p>
+                <p class="answer half" id="ansB">B. <span id="answer-b">Beer</span></p>
+                <p class="correct" id="ansC">C. <span id="answer-c">Kool-Aid</span></p>
+                <p class="answer half" id="ansD">D. <span id="answer-d">Capri Sun</span></p>
+            </div>
+            <button id="setSwap-btn">Set Two</button>
+    </div>
+    <video id="background-video" autoplay loop muted>
+        <source src="media/background.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
