@@ -157,7 +157,7 @@ video {
     text-shadow: black 2px 2px 0;
 }
 
-.answer:hover {
+.answer:hover, .correct:hover {
     background-image: radial-gradient(rgb(208, 157, 27), rgb(208, 157, 27));
 }
 
