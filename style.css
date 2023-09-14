@@ -197,22 +197,15 @@ video {
     }
 }
 
+@keyframes slideRightMobile {
+    40%{
+        margin-left: 1em;
+        opacity: 0;
+    }
+}
+
 @media(max-width:600px) {
-    .intro-container h1 {
-        font-size: 3em;
-    }
-    .intro-btn-container {
-        gap: 3em;
-        margin: -2em;
-    }
-    .intro-btn {
-        font-size: 3em;
-        width: 6em;
-    }
-    .intro-container img {
-        width: 60%;
-    }
-    .set1-container {
+    .set-container {
         grid-template-rows: repeat(5, 8em);
     }
     .lifeline-container {
@@ -220,13 +213,45 @@ video {
         margin-bottom: 5em;
     }
     .lifeline-container .lifeline {
-        width: 2em;
+        width: 10em;
+        padding: .4em 1em;
     }
     .logo-container {
         grid-row: 3 / 4;
     }
     .logo-container img {
-        width: 18em;
+        width: 17em;
         align-self: flex-end;
+    }
+    .money-container {
+        grid-row: 3 / 6;
+        gap: .5em;
+        height: 10em;
+    }
+    .amount {
+        font-size: 1.1em;
+    }
+    .selected {
+        padding-left: .05em;
+        animation: slideRightMobile 2s ease-in-out;
+    }
+    .question {
+        font-size: 1em;
+        padding: .2em;
+        overflow: hidden;
+    }
+    .answer-container {
+        grid-row: 5 / 7;
+        grid-column: 1 / 4;
+    }
+    .question-container {
+        grid-column: 1 / 6;
+        grid-row: 4 / 5;
+    }
+    #setSwap-btn {
+        display: none;
+    }
+    .answer {
+        margin: .1em;
     }
 }
