@@ -12,6 +12,7 @@ function selectedQuestion(){
     document.querySelectorAll('p > span').forEach(el => {
         el.style.animation = 'fadeInAnimation 3s ease-in-out';
     });
+    new Audio('media/question.mp3').play();
 }
 
 function selectedLifeline(){
@@ -25,11 +26,13 @@ function selectedAnswer() {
 
     if(this.classList.contains('correct')) {
         this.style.backgroundImage = 'radial-gradient(rgb(51, 208, 27), rgb(27, 129, 11))';
+        new Audio('media/correct.mp3').play();
         document.querySelectorAll('p > span').forEach(el => {
             el.style.animation = '';
         });
     } else {
         this.style.backgroundImage = 'radial-gradient(rgb(208, 27, 27), rgb(129, 11, 11))';
+        new Audio('media/wrong.mp3').play();
         document.querySelectorAll('p > span').forEach(el => {
             el.style.animation = '';
         });

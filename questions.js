@@ -14,7 +14,7 @@ function question(question, a, b, c, d, correct, halfOne, halfTwo) {
     answerReset()
     let questionBox = document.querySelector('.question');
     questionBox.innerText = question;
-    questionBox.style.animation = 'fadeInAnimation 2s ease-in-out';
+    questionBox.style.animation = 'fadeInAnimation 3s ease-in-out';
     let answerOne = document.getElementById('answer-a');
     let answerOneBox = document.getElementById('ansA');
     answerOne.innerText = a;
