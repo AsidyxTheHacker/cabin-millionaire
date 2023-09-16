@@ -4,6 +4,7 @@ const lifeline5050 = document.getElementById('5050-lifeline');
 const setSwapBtn = document.getElementById('setSwap-btn');
 const questionBox = document.querySelector('.question');
 const audio = new Audio("media/background.mp3");
+const modalBtn = document.getElementById("modalBtn");
 const moneyContainer = document.querySelectorAll('.amount').forEach(el => el.addEventListener('click', selectedQuestion))
 const lifelineContainer = document.querySelectorAll('.lifeline').forEach(el => el.addEventListener('click', selectedLifeline))
 const correctAnswer = document.querySelectorAll('.answer-container > p').forEach(el => el.addEventListener('click', selectedAnswer));
@@ -57,3 +58,8 @@ lifeline5050.addEventListener('click', () => {
     answerList.forEach(element => element.style.opacity = 0);
     answerList.forEach(element => element.style.zIndex = '-3');
 });
+
+modalBtn.addEventListener('click', () => {
+    audio.play();
+    document.getElementById('modal-container').style.display = 'none';
+})
