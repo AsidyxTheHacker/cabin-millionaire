@@ -84,7 +84,7 @@ body {
     margin: 0;
 }
 
-.amount {
+.amount, .amount-current {
     color: rgb(230, 230, 230);
     font-weight: bold;
     list-style-type: none;
@@ -254,7 +254,7 @@ body {
         gap: .5em;
         height: 10em;
     }
-    .amount {
+    .amount, .amount-current {
         font-size: 1.1em;
     }
     .selected {
