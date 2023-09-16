@@ -3,12 +3,14 @@ const body = document.querySelector('body');
 const lifeline5050 = document.getElementById('5050-lifeline');
 const setSwapBtn = document.getElementById('setSwap-btn');
 const questionBox = document.querySelector('.question');
+const audio = new Audio("media/background.mp3");
 const moneyContainer = document.querySelectorAll('.amount').forEach(el => el.addEventListener('click', selectedQuestion))
 const lifelineContainer = document.querySelectorAll('.lifeline').forEach(el => el.addEventListener('click', selectedLifeline))
 const correctAnswer = document.querySelectorAll('.answer-container > p').forEach(el => el.addEventListener('click', selectedAnswer));
 
 function selectedQuestion(){
     this.classList.add('selected');
+    audio.play();
     document.querySelectorAll('p > span').forEach(el => {
         el.style.animation = 'fadeInAnimation 3s ease-in-out';
     });
@@ -23,6 +25,7 @@ function selectedLifeline(){
 function selectedAnswer() {
     this.classList.add('answer-selected');
     this.classList.remove('answer');
+    audio.pause();
 
     if(this.classList.contains('correct')) {
         this.style.backgroundImage = 'radial-gradient(rgb(51, 208, 27), rgb(27, 129, 11))';
@@ -53,4 +56,4 @@ lifeline5050.addEventListener('click', () => {
     const answerList = document.querySelectorAll('.answer-container > .half');
     answerList.forEach(element => element.style.opacity = 0);
     answerList.forEach(element => element.style.zIndex = '-3');
-})
+});
