@@ -208,79 +208,29 @@ body {
 }
 
 @keyframes fadeInAnimation {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
-
 @keyframes slideRight {
-    40%{
-        margin-left: 3em;
-        opacity: 0;
-    }
+    40%{margin-left: 3em; opacity: 0;}
 }
-
 @keyframes slideRightMobile {
-    40%{
-        margin-left: .8em;
-        opacity: 0;
-    }
+    40%{margin-left: .8em; opacity: 0;}
 }
 
 @media(max-width:600px) {
-    .set-container {
-        grid-template-rows: repeat(5, 8em);
-    }
-    .lifeline-container {
-        gap: 1em;
-        margin-bottom: 5em;
-    }
-    .lifeline-container .lifeline {
-        width: 10em;
-        padding: .4em 1em;
-    }
-    .logo-container {
-        grid-row: 3 / 4;
-    }
-    .logo-container img {
-        width: 17em;
-        align-self: flex-end;
-    }
-    .money-container {
-        grid-row: 3 / 6;
-        gap: .5em;
-        height: 10em;
-    }
-    .amount, .amount-current {
-        font-size: 1.1em;
-    }
-    .selected {
-        padding-left: .05em;
-        animation: slideRightMobile 2s ease-in-out;
-    }
-    .question {
-        font-size: 1em;
-        padding: .2em;
-        overflow: hidden;
-    }
-    .answer-container {
-        grid-row: 5 / 7;
-        grid-column: 1 / 4;
-    }
-    .question-container {
-        grid-column: 1 / 6;
-        grid-row: 4 / 5;
-    }
-    #setSwap-btn {
-        display: none;
-    }
-    .answer {
-        margin: .1em;
-    }
-    #modal-container {
-        transform: scale(.45);
-    }
+    .set-container {grid-template-rows: repeat(5, 8em);}
+    .lifeline-container {gap: 1em; margin-bottom: 5em;}
+    .lifeline-container .lifeline {width: 10em; padding: .4em 1em;}
+    .logo-container {grid-row: 3 / 4;}
+    .logo-container img {width: 17em; align-self: flex-end;}
+    .money-container {grid-row: 3 / 6; gap: .5em; height: 10em;}
+    .amount, .amount-current {font-size: 1.1em;}
+    .selected {padding-left: .05em; animation: slideRightMobile 2s ease-in-out;}
+    .question {font-size: 1em; padding: .2em; overflow: hidden;}
+    .answer-container {grid-row: 5 / 7; grid-column: 1 / 4;}
+    .question-container {grid-column: 1 / 6; grid-row: 4 / 5;}
+    #setSwap-btn {display: none;}
+    .answer {margin: .1em;}
+    #modal-container {transform: scale(.45);}
 }
