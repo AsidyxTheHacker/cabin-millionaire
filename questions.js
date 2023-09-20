@@ -67,8 +67,8 @@ function answerReset(){
         el.classList.add('answer');
         el.classList.remove('correct');
         el.classList.remove('half');
-    })
-}
+    });
+};
 
 function questionOne() {
     question(`What game is Wheelin' Dealin' Ethan's theme song from?`, `Doom`, `Battlefield`, `Call of Duty`, `Grand Theft Auto`, 1, 3, 4);
