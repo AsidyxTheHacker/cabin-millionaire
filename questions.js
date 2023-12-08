@@ -71,47 +71,47 @@ function answerReset(){
 };
 
 function questionOne() {
-    question(`What game is Wheelin' Dealin' Ethan's theme song from?`, `Doom`, `Battlefield`, `Call of Duty`, `Grand Theft Auto`, 1, 3, 4);
+    question(`What item is used to breed cows?`, `Seeds`, `Wheat`, `Carrots`, `Apples`, 2, 1, 3);
 };
 function questionTwo() {
-    question(`What was the official title for the first HKW ppv?`, `Collision Course`, `HKW Havoc`, `Wrestlefest`, `Thunderstruck`, 4, 1, 3);
+    question(`What is the name of Minecraft's original main character?`, `Steve`, `Alex`, `Bryan`, `Notch`, 1, 3, 4);
 };
 function questionThree() {
-    question(`Which wrestler did Street Bully find in his jail cell?`, `Ethan`, `Juggernaut`, `Captain Baby`, `Captain Imbecile`, 4, 2, 3);
+    question(`Which of these Minecraft parodies did CaptainSparklez not make?`, `TNT`, `Revenge`, `Don't Mine at Night`, `Minecraft Style`, 3, 1, 2);
 };
 function questionFour() {
-    question(`What was the screen-name of Ethan's date from 'The Big Date'?`, `Sergeant Dan`, `Daniella`, `Danielle`, `Dani`, 3, 4, 2);
+    question(`Which of these enchantments is NOT for tools?`, `Fortune`, `Looting`, `Efficiency`, `Unbreaking`, 2, 4, 3);
 };
 function questionFive() {
-    question(`Which character was introduced in the first episode of season two?`, `Guitar Guy`, `Street Bully`, `Grandpa Dan`, `Captain Baby`, 2, 1, 4);
+    question(`Which of these items does a zombie NOT drop?`, `Rotten Flesh`, `Baked Potato`, `Iron Shovel`, `Golden Carrot`, 4, 1, 3);
 };
 function questionSix() {
-    question(`How many episodes were in season one of HKW?`, `4`, `6`, `5`, `7`, 2, 1, 3);
+    question(`What country is Mojang located in?`, `Germany`, `United States`, `Europe`, `Sweden`, 4, 1, 2);
 };
 function questionSeven() {
-    question(`Who did Doug lose the 'Gauntlet Belt' to?`, `Trashman`, `The Phantom`, `Iceman`, `Guitar Guy`, 3, 1, 4);
+    question(`What is Notch's real name?`, `John Minecraft`, `Markus Persson`, `Todd Howard`, `Peder Bergensten`, 2, 1, 3);
 };
 function questionEight() {
-    question(`Which episode of season two did Wheelin' Dealin' Ethan get his haircut?`, `Episode 2`, `Episode 4`, `Episode 5`, `Episode 3`, 4, 3, 1);
+    question(`Which of these mobs can drop coal when slain?`, `Wandering Traders`, `Husks`, `Wither Skeletons`, `Blazes`, 3, 1, 4);
 };
 function questionNine() {
-    question(`Which character was murdered in the episode 'Murder Mystery'?`, `Sergeant Dan`, `Fortnite Fiend`, `Guitar Guy`, `Doug`, 2, 4, 3);
+    question(`What is the minimal amount of obsidian blocks needed to create a nether portal?`, `8`, `12`, `10`, `9`, 3, 4, 2);
 };
 function questionTen() {
-    question(`Which episode did the wretler 'Doug' debut?`, `Where's My Belt At?`, `HKW TURKLABERSH EP6`, `Murder Mystery`, `The Return?`, 3, 1, 4);
+    question(`What item does a creeper drop when killed by a skeleton?`, `Creeper Head`, `TNT`, `Music Disc`, `Iron Ingot`, 3, 2, 4);
 };
 function questionEleven() {
-    question(`What was the opening match for 'Thunderstruck'?`, `King Raven vs Wolf`, `Guitar Guy vs Guitar Bruh`, `Cop Guy vs Street Bully`, `Sergeant Dan vs Guitar Guy`, 1, 3, 4);
+    question(`In which biome does emerald ore spawn?`, `Plains`, `Mountains`, `Badlands`, `Savannah`, 2, 1, 4);
 };
 function questionTwelve() {
-    question(`What was the current last match of HKW?`, `Guitar Guy vs Sergeant Dan`, `Trashman vs Guitar Bruh`, `King Raven vs Wolf`, `Doug vs Iceman`, 2, 1, 3);
+    question(`What Minecraft achievement do you get by acquiring diamonds?`, `Cover Me In Diamonds!`, `Diamonds to you!`, `DIAMONDS!`, `OH, SHINY!`, 3, 1, 4);
 };
 function questionThirteen() {
-    question(`How many subscribers does HKW currently have?`, `26`, `19`, `23`, `21`, 3, 1, 2);
+    question(`What year did Minecraft officially release?`, `2010`, `2009`, `2012`, `2011`, 4, 3, 1);
 };
 function questionFourteen() {
-    question(`What is Sergeant Dan's favorite number?`, `2`, `4`, `7`, `8`, 1, 3, 4);
+    question(`What is considered the rarest item in Minecraft?`, `Dragon Egg`, `Nether Star`, `Dragon Head`, `Enchanted Golden Apple`, 1, 3, 4);
 };
 function questionFifteen() {
-    question(`What is the name of Juggernaut's stuffed animal friend?`, `Shnarf`, `Marvin`, `Johnny`, `Willy`, 4, 1, 2);
+    question(`How many peaceful mobs are currently in Minecraft?`, `32`, `34`, `28`, `30`, 1, 3, 4);
 };

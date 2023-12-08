@@ -153,6 +153,7 @@ body {
     border: rgb(85, 178, 255) solid 3px;
     border-radius: 40px;
     cursor: pointer;
+    max-width: 19vw;
     transition: .2s ease-in-out;
     text-shadow: black 2px 2px 0;
 }
