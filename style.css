@@ -234,4 +234,5 @@ body {
     #setSwap-btn {display: none;}
     .answer {margin: .1em;}
     #modal-container {transform: scale(.45);}
+    #modalBtn {min-width: 7em;}
 }
